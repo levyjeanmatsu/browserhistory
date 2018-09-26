@@ -17,16 +17,29 @@ img {
 .right {
   float: right;
   width: 300px;
+  padding-top: 100px;
 }
 
 .left {
   float: left;
   width: 300px;
+  padding-top: 100px;
 }
 
 .center {
-  margin-left:450px;
+  margin-left:300px;
   margin-right: 300px;
-  width: 300px;
+  padding-top: 100px;
 
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  padding: 50px;
 }
